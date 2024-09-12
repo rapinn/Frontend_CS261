@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: teal;
 }
 
 .login-container {
@@ -23,22 +23,23 @@ label {
 }
 
 input {
-    width: 100%;
+    align-items: center;
+    width: 90%;
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: darkcyan;
     border: none;
     color: #fff;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: cadetblue;
 }
 
 #message {
